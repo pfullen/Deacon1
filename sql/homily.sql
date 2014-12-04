@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 04, 2014 at 06:20 PM
+-- Generation Time: Dec 04, 2014 at 06:56 PM
 -- Server version: 5.6.14
 -- PHP Version: 5.5.6
 
@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE IF NOT EXISTS `homily` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
-  `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `date` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP,
   `title` varchar(255) DEFAULT NULL,
   `gospel` varchar(255) DEFAULT NULL,
   `calendarYear` varchar(255) DEFAULT NULL,
