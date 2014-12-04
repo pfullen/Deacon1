@@ -14,8 +14,8 @@ ini_set('display_errors', '1');
  */
 $sql_details = array(
 	"type" => "Mysql",
-	"user" => "peter",
-	"pass" => "hodie8888",
+	"user" => "root",
+	"pass" => "Hodie0323",
 	"host" => "localhost",
 	"port" => "",
 	"db"   => "deacon",
