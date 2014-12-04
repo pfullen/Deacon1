@@ -15,9 +15,9 @@ body {
    
 }
 
-.title {
+.title th {
 
-width: 90px;
+width: 150px;
 
 
 }
