@@ -11,7 +11,7 @@ body {
 	
 	background-repeat: no-repeat;
    background-size:500px;
-   background-position: 0 100px;
+   background-position: 0 75px;
    
 }
 
