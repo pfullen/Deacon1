@@ -8,7 +8,7 @@
 // DataTables PHP library
 include( "lib/DataTables.php" );
 
- date_default_timezone_set(date_default_timezone_get());
+
 
 
 // Alias Editor classes so they are easy to use
